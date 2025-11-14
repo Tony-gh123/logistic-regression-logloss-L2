@@ -1,0 +1,7 @@
+.csv
+.csv/
+*.csv
+data/
+data
+*.data
+__pycache__/
