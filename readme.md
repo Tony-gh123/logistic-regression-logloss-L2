@@ -31,7 +31,7 @@ In practice, missing a late delivery (a false negative) is more costly than inco
 <div align="center">
   <img src="figures/convergence_plot.png" alt="Convergence Plot" width="400"/>
   <br/>
-  <img src="figures/ROC_curve.png" alt="ROC Curve" width="400"/>
+  <img src="figures/roc_curve.png" alt="ROC Curve" width="400"/>
   <img src="figures/calibration_curve.png" alt="Calibration Curve" width="400"/>
 </div>
 
