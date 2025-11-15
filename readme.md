@@ -39,6 +39,9 @@ In practice, missing a late delivery (a false negative) is more costly than inco
 
 ## **Logistic Regression**
 
+> **Note**: GitHub mobile does **not** render LaTeX math formulas.  
+> Please view this project on a **desktop browser**.
+
 Binary classification models are those where the output of the prediction is either zero or one, namely, identifies if something is within a category spectrum (say cat or dog, true or false). Logistic Regression uses this methodology and accurately classifies two distinct categories using the sigmoid function. 
 
 Our linear classification model is represented as:
