@@ -50,7 +50,7 @@ $$f_{w,b}(\mathbf{X}) = g(\mathbf{X} \mathbf{w} + b \cdot \mathbf{1})$$
 
 where $$\mathbf{z} = \mathbf{X} \mathbf{w} + b \cdot \mathbf{1}$$ is the linear combination of features and $g(z)$ is the sigmoid (logistic) function.
 
-For each training example $x^{(i)}$ in the Matrix $\mathbf{X}$, the logistic regression algorithm takes a linear combination of the features $z$, then passes it through the sigmoid $g(z)$ function to squash it into a probability between 0 and 1, which becomes our model's prediction $f_{w,b}(\mathbf{x})$. We can interpret the results of our logistic regression function as a probability, namely, if we observe that $f_{w,b}(\mathbf{x}) = P(y = 1 \mid \mathbf{x}; w, b)$ where $g(z) = 0.7$, we say that there is a 70% chance our prediction is y = 1.
+For each training example $x^{(i)}$ in the matrix $\mathbf{X}$, the logistic regression algorithm takes a linear combination of the features $z$, then passes it through the sigmoid $g(z)$ function to squash it into a probability between 0 and 1, which becomes our model's prediction $f_{w,b}(\mathbf{x})$. We can interpret the results of our logistic regression function as a probability, namely, if we observe that $f_{w,b}(\mathbf{x}) = P(y = 1 \mid \mathbf{x}; w, b)$ where $g(z) = 0.7$, we say that there is a 70% chance our prediction is y = 1.
 
 The full derivation of logistic regression can be found here: [Standford: Logistic Regression Slides](https://web.stanford.edu/~jurafsky/slp3/slides/5_LR_Apr_7_2021.pdf)
 
