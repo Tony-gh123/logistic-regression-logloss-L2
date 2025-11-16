@@ -122,7 +122,7 @@ $$
 \text{loss}(f_{w,b}(x^{(i)})) = -\log(f_{w,b}(x^{(i)}))
 $$
 
-which ensures that as we iterate through our minimization algorithm, the decision boundary parameters w,b are updated so that predicted probabilities for positives move toward 1 and for negatives toward 0.
+which ensures that as we iterate through our minimization algorithm, the model parameters $(w, b)$ are updated so that predicted probabilities for positive examples $y = 1$ move toward 1 and for negative examples $y = 0$ toward 0.
 
 ### **(L2) Ridge Regularization**
 
