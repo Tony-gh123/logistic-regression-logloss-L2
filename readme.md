@@ -21,10 +21,9 @@ Recall   : 0.8855 \
 F1 Score : 0.8509 \
 ROC AUC  : 0.9650
 
-Our logistic regression model achieved an accuracy of **92.28%** on the on-time/late delivery evaluation set. At the chosen probability threshold, it correctly flags **88.55%** of all late deliveries (recall), ensuring most truly late packages are identified by the model. When the model predicts a delivery will be late, it is correct **81.90%** of the time (precision). The resulting F1 score of **85.09%** summarizes this balance between catching late deliveries and limiting false positives. Finally, the ROC AUC of **0.9650** (as visualized in the ROC curve) indicates that in **~96.5%** of randomly chosen pairs of on-time and late instances, the model assigns a higher probability score to the late delivery.
+Our logistic regression model achieved an accuracy of **92.28%** on all package delivery predictions. At the chosen probability threshold, it correctly flags **88.55%** of all late deliveries (recall), ensuring most truly late packages are identified by the model. When the model predicts a delivery will be late, it is correct **81.90%** of the time (precision). The resulting F1 score of **85.09%** summarizes this balance between catching late deliveries and limiting false positives. Finally, the ROC AUC of **0.9650** (as visualized in the ROC curve) indicates that in **~96.5%** of randomly chosen pairs of on-time and late instances, the model assigns a higher probability score to the late delivery.
 
-In practice, missing a late delivery (a false negative) is more costly than incorrectly predicting one (a false positive), so we selected a lower decision threshold of 0.35 rather than the default 0.50. This increases recall and allows the system to flag a greater proportion of at-risk deliveries earlier, as confirmed by the model's well-calibrated probabilities.
-
+In practice, missing a late delivery (a false negative) is more costly than incorrectly predicting one (a false positive), so we selected a lower decision threshold of 0.35 rather than the default 0.50. This increases recall and allows the system to flag a greater proportion of at-risk deliveries earlier.
 
 <br>
 
